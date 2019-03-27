@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>wcl weekly newsletter</title>
+	
+	<style type="text/css">
+  body{
+    margin: 0!important;
+    padding: 15px;
+    background: #ffffff;
+  }
+  .wrapper{
+    width: 100%;
+    table-layout: fixed;
+  }
+  .wrapper-inner{
+    width: 100%;
+    background-color: #ffffff;
+    max-width: 670px;
+    margin: 0 auto;
+  }
+  table{
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #727f80;
+  }
+  .outer-table,
+  .footer{
+    width: 100%;
+    max-width: 670px;
+    margin: 0 auto;
+  }
+  .outer-table{
+    background-color: #ffffff;
+  }
+  td{
+    padding: 0;
+  }
+  .header{
+    background-color: #F8F9FA;
+    border-bottom: 3px solid #00838F;
+  }
+  .header p{
+    text-align: center;
+    padding: 1%;
+    font-weight: 500;
+    font-size: 11px;
+  }
+  p{
+    margin: 0;
+  }
+  a{
+    color: #00838F;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .h3{
+    font-size: 18px;
+    color: #231F20;
+    font-weight: 500;
+  }
+  .email{
+    color: #C90B1C;
+  }
+  /*--- End outer table 1 ---*/
+  .main-table-first{
+    width: 100%;
+    max-width: 610px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-top: 25px;
+  }
+  /*--- start two column Sections ---*/
+  .two-column{
+    text-align: center;
+    font-size: 0;
+    padding: 5px 0 10px 0;
+  }
+  .two-column .section{
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .two-column .content{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+  }
+  .content{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .center{
+    display: table;
+    margin: 0 auto;
+  }
+  img{
+    border: 0;
+  }
+  img .logo{
+    float: left;
+    margin-left: 5%;
+    max-width: 130px !important;
+  }
+  #issue-number{
+    float: right;
+    margin: 4% 5% 2% 0;
+    height: auto;
+    overflow: hidden;
+  }
+  #issue-number img{
+    max-width: 20px;
+  }
+  /*--- start outer table banner image, text & button ---*/
+  .image img{
+    width: 100%;
+    max-width: 670px;
+    height: auto;
+  }
+  .main-table{
+    width: 100%;
+    max-width: 610px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 6px;
+  }
+  .one-column .inner-td{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+  }
+  .inner-td{
+    padding: 10px;
+  }
+  .h2{
+    text-align: center;
+    font-size: 23px;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 45px;
+    margin: 12px;
+    color: #4a4a4a;
+  }
+  p.center{
+    text-align: center;
+    max-width: 580px;
+    line-height: 24px;
+  }
+  /*--- start two column image & text sections ---*/
+  .one-column-main img{
+    width: 100%;
+    /*max-width: 280px;*/
+    height: auto;
+  }
+  .one-column-main .text{
+    padding: 10px 0;
+  }
+  /*--- top search ---*/
+  .topten{
+    text-align: center;
+  }
+  .topten img{
+    width: 100%;
+  }
+  .subheading{
+    color: #C90B1C;
+    text-align: center;
+    padding: 10px;
+  }
+  /*--- industry news ---*/
+  .news img{
+    width: 100%;
+  }
+  /*--- footer ---*/
+  .footer {
+        clear: both;
+        text-align: center;
+        width: 100%; }
+        .footer td,
+        .footer span,
+        .footer a {
+          color: #999999;
+          font-size: 12px;
+          text-align: center;
+  }
+  .content-block {
+        padding-bottom: 16px;
+        padding-top: 16px;
+        background:#333;
+      }
+    /*--- Media Queries ---*/
+    @media screen and (max-width: 400px){
+      .two-column .column{
+        max-width: 100% !important;
+      }
+      .two-column img{
+        width: 100%!important;
+      }
+    }
+    @media screen and (min-width: 401px) and (max-width: 400px){
+      .two-column .column{
+        max-width: 50%!important;
+      }
+    }
+    @media screen and (max-width: 768px){
+      img.logo{
+        float: none !important;
+        margin-left: 0% !important;
+        max-width: 200px!important;
+        text-align: center;
+      }
+      #issue-number{
+        float: none !important;
+        margin: 0% 0% 0% 0;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+      }
+      #issue-number img{
+        max-width: 26px !important;
+      }
+      .two-column .section{
+        width: 100% !important;
+        max-width: 100% !important;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .two-column img{
+        width: 100% !important;
+        height: auto !important;
+      }
+      img.img-responsive{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+      }
+      .content{
+        width: 100%;
+        padding-top: 0px !important;
+      }
+    }
+  </style>
+</head>
+<body style="padding: 15px;background: #ffffff;margin: 0!important;">
+	<div class="wrapper" style="width: 100%;table-layout: fixed;">
+		<div class="wrapper-inner" style="width: 100%;background-color: #ffffff;max-width: 670px;margin: 0 auto;">
+			<table class="outer-table" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;max-width: 670px;margin: 0 auto;background-color: #ffffff;">
+				<tr>
+					<td class="header" style="padding: 0;background-color: #F8F9FA;border-bottom: 3px solid #00838F;">
+						<p style="margin: 0;text-align: center;padding: 1%;font-weight: 500;font-size: 11px;"><a href="index.html" style="color: #00838F;text-decoration: none;font-weight: bold;">click to view this email in your browser</a></p>
+					</td>
+				</tr><!-- end header -->
+			</table><!-- close outer table -->
+			<table class="main-table-first" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;max-width: 610px;margin: 0 auto;background-color: #ffffff;border-radius: 6px;margin-top: 25px;">
+				<tr>
+					<td class="two-column" style="padding: 5px 0 10px 0;text-align: center;font-size: 0;">
+						<div class="section" style="width: 100%;max-width: 300px;display: inline-block;vertical-align: top;">
+							<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+								<tr>
+									<td class="inner-td" style="padding: 10px;">
+										<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;font-size: 16px;line-height: 20px;text-align: justify;">
+											<tr>
+												<td style="padding: 0;">
+													<img class="logo" src="http://leasecarsdirect.co.uk/scripts/ajax/flyers/newsletter/whatcar-logo-new.jpg" alt="What Car? Leasing Logo" style="border: 0;">
+												</td>
+											</tr>
+										</table><!-- close content -->
+									</td><!-- close inner td -->
+								</tr>
+							</table>
+						</div><!-- close first section -->
+						<div class="section" style="width: 100%;max-width: 300px;display: inline-block;vertical-align: top;">
+							<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+								<tr>
+									<td class="inner-td" style="padding: 10px;">
+										<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;font-size: 16px;line-height: 20px;text-align: justify;">
+											<tr>
+												<td style="padding: 0;">
+													<div id="issue-number" style="float: right;margin: 4% 5% 2% 0;height: auto;overflow: hidden;">
+														<p style="margin: 0;">Issue 1</p>
+													</div><!-- close issue number -->
+												</td>
+											</tr>
+										</table><!-- close content -->
+									</td><!-- close inner td -->
+								</tr>
+							</table>
+						</div><!-- close second section -->
+					</td>
+				</tr>
+			</table><!-- close main table first -->
+
+			<table class="main-table" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;max-width: 610px;margin: 0 auto;background-color: #ffffff;border-radius: 6px;">
+				<tr>
+					<td class="one-column" style="padding: 0;">
+						<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+							<tr>
+								<td class="inner-td" style="padding: 10px;font-size: 16px;line-height: 20px;text-align: justify;">
+									<p class="h2" style="margin: 12px;text-align: center;font-size: 23px;font-weight: 600;line-height: 45px;color: #4a4a4a;">Newsletter</p>
+									<p class="center" style="margin: 0 auto;display: table;text-align: left;max-width: 580px;line-height: 24px; padding:5px;">Welcome to our newsletter. We aim to provide you with tips on how to get the best results from your account.</p>
+									<ul style="padding: 0; Margin: 0 0 0 20px;"> <!-- left and right margins only -->
+										<li style="Margin: 10px 0 10px 0;">An insight into what customers are searching and enquiring on</li> <!-- top and bottom margins only -->
+										<li style="Margin: 0 0 10px 0">New website features</li>
+									</ul>
+								</td><!-- close inner td -->
+							</tr>
+							<tr>
+								<td class="image" style="padding: 0;">
+									<img src="http://leasecarsdirect.co.uk/scripts/ajax/flyers/newsletter/whats-new.jpg" alt="newsletter hero image" style="border: 0;width: 100%;max-width: 670px;height: auto;">
+								</td><!-- close image -->
+							</tr>
+							<tr>
+								<td class="inner-td" style="padding: 10px;font-size: 16px;line-height: 20px;text-align: justify;">
+									<p class="h2" style="margin: 12px;text-align: center;font-size: 23px;font-weight: 600;line-height: 45px;color: #4a4a4a;">Website updates</p>
+								</td><!-- close inner td -->
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<!-- close one column -->
+			<!-- close main table -->
+		
+			<!-------------
+				TWO COLUMN
+			--------------->
+			<table class="main-table" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;max-width: 610px;margin: 0 auto;background-color: #ffffff;border-radius: 6px;">
+				<tr>
+					<td class="two-column" style="padding: 5px 0 10px 0;text-align: center;font-size: 0;">
+						<div class="section" style="width: 100%;max-width: 300px;display: inline-block;vertical-align: top;">
+							<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+								<tr>
+									<td class="inner-td" style="padding: 10px;">
+										<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;font-size: 16px;line-height: 20px;text-align: justify;">										
+											<tr>
+												<td style="padding: 0;">
+													<img src="http://leasecarsdirect.co.uk/scripts/ajax/flyers/newsletter/special-offers.jpg" alt="wcl special offers screenshot" style="border: 0;width: 100%;height: auto;">
+												</td>
+											</tr>										
+											<tr>
+												<td class="text" style="padding: 10px 0;">
+													<p class="h3" style="margin: 0;font-size: 18px;color: #231F20;font-weight: 500;">Special Offers - Filters</p>
+													<p style="margin: 0;">Customers can now filter the special offers page which vastly improves the customers journey &amp; allowing your great offers to be found more quickly.</p>
+													<br>
+													<a href="https://www.whatcar.com/car-leasing/" style="color: #00838F;text-decoration: none;font-weight: bold;">Visit What Car? Leasing</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div> <!--- End First Column of Two Columns -->
+						<div class="section" style="width: 100%;max-width: 300px;display: inline-block;vertical-align: top;">
+							<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+								<tr>
+									<td class="inner-td" style="padding: 10px;">
+										<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;font-size: 16px;line-height: 20px;text-align: justify;">
+											<tr>
+												<td style="padding: 0;">
+													<img src="http://leasecarsdirect.co.uk/scripts/ajax/flyers/newsletter/vans.jpg" alt="wcl vans screenshot" style="border: 0;width: 100%;height: auto;">
+												</td>
+											</tr>											
+											<tr>
+												<td class="text" style="padding: 10px 0;">
+													<p class="h3" style="margin: 0;font-size: 18px;color: #231F20;font-weight: 500;">Vans - Coming Soon</p>
+													<p style="margin: 0;">Please email us if you would like to advertise your van offers on our website and we will be in touch</p>
+													<br>
+													<p class="email" style="margin: 0;color: #C90B1C;">enquiries@whatcar-leasing.co.uk</p>
+												</td>
+											</tr>										
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div> <!--- End Second Column of Two Columns -->
+					</td>
+				</tr> <!--- End Two Column Section -->
+			</table>		
+			<!-------------------
+				END TWO COLUMN
+			--------------------->
+
+			<hr width="600px">
+			<!-------------
+				TWO COLUMN
+			--------------->
+			<table class="main-table" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;max-width: 610px;margin: 0 auto;background-color: #ffffff;border-radius: 6px;">
+				<tr>
+					<td class="two-column" style="padding: 5px 0 10px 0;text-align: center;font-size: 0;">
+						<div class="section" style="width: 100%;max-width: 300px;display: inline-block;vertical-align: top;">
+							<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+								<tr>
+									<td class="inner-td" style="padding: 10px;">
+										<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;font-size: 16px;line-height: 20px;text-align: justify;">
+											<tr>
+												<td class="text" style="padding: 10px 0;">
+													<p class="h2" style="margin: 12px;text-align: center;font-size: 23px;font-weight: 600;line-height: 45px;color: #4a4a4a;">Top Searched Vehicles</p>
+													<p class="subheading" style="margin: 0;color: #C90B1C;text-align: center;padding: 10px;">Top Searched Vehicle</p>
+													<p class="h3" style="margin: 0;font-size: 18px;color: #231F20;font-weight: 500; text-align:center;">Volkswagen Golf</p>
+												</td>
+											</tr>
+											<tr>
+												<td style="padding: 0;">
+													<img src="http://leasecarsdirect.co.uk/scripts/ajax/flyers/newsletter/top-searched.jpg" alt="top searched vehicles" style="border: 0;width: 100%;">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div> <!--- End First Column of Two Columns -->
+						<div class="section" style="width: 100%;max-width: 300px;display: inline-block;vertical-align: top;">
+							<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+								<tr>
+									<td class="inner-td" style="padding: 10px;">
+										<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;font-size: 16px;line-height: 20px;text-align: justify;">
+											<tr>
+												<td class="text" style="padding: 10px 0;">
+													<p class="h2" style="margin: 12px;text-align: center;font-size: 23px;font-weight: 600;line-height: 45px;color: #4a4a4a;">Top Enquired Vehicles</p>
+													<p class="subheading" style="margin: 0;color: #C90B1C;text-align: center;padding: 10px;">Top Enquired Vehicle</p>
+													<p class="h3" style="margin: 0;font-size: 18px;color: #231F20;font-weight: 500; text-align:center;">Volkswagen Tiguan</p>
+												</td>
+											</tr>
+											<tr>
+												<td style="padding: 0;">
+													<img src="http://leasecarsdirect.co.uk/scripts/ajax/flyers/newsletter/top-enquired.jpg" alt="top enquired vehicles" style="border: 0;width: 100%;">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div> <!--- End Second Column of Two Columns -->
+					</td>
+				</tr> <!--- End Two Column Section -->
+			</table>
+			<!-------------------
+				END TWO COLUMN
+			--------------------->
+
+			<hr width="600px">
+			<table class="main-table" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;max-width: 610px;margin: 0 auto;background-color: #ffffff;border-radius: 6px;">
+				<tr>
+					<td class="one-column" style="padding: 0;">
+						<div class="section">
+							<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+								<tr>
+									<td class="inner-td" style="padding: 10px;font-size: 16px;line-height: 20px;text-align: justify;">
+										<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;">
+											<tr>
+												<td>
+													<p class="h2" style="margin: 12px;text-align: center;font-size: 23px;font-weight: 600;line-height: 45px;color: #4a4a4a;">Industry Insights</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+								<tr>
+									<td class="news" style="padding: 0;">
+										<img src="http://leasecarsdirect.co.uk/scripts/ajax/flyers/newsletter/top-economical.jpg" alt="top 5 economical vehicles" style="border: 0;width: 100%;" alt="top 5 economical vehicle">
+									</td>
+								</tr>
+								<tr>
+									<td style="padding: 0;">
+										<p class="h2" style="margin: 12px;text-align: center;font-size: 23px;font-weight: 600;line-height: 45px;color: #4a4a4a;">Top 5 Economical Vehicles</p>
+										<p class="h3" style="margin: 10px 0;">What is important to customers?</p>
+										<p style="margin: 0;">Looking for the most economical family vehicle to lease? We have provided some insight based this list on the What Car? True MPG figures, which show a reliable average fuel-efficiency figure for real-world driving conditions. Find out which leasing options make the grade when running costs are the top consideration.</p>
+										<a href="https://www.whatcar.com/car-leasing/blogs/advice/top-5-economical-vehicles/" style="color: #00838F;text-decoration: none;font-weight: bold;">Read Full Article</a>
+									</td>
+								</tr>
+							</table>
+						</div><!-- close section -->
+					</td>
+				</tr>
+			</table>
+			
+
+			<hr width="600px">
+			
+			<table class="main-table" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;max-width: 610px;margin: 0 auto;background-color: #ffffff;border-radius: 6px;">
+				<tr>
+					<td class="one-column" style="padding: 0;">
+						<div class="section">
+						  	<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+								<tr>
+									<td class="inner-td" style="padding: 10px;font-size: 16px;line-height: 20px;text-align: justify;">
+										<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;">
+											<tr>
+												<td style="padding: 0;">
+													<p class="h2" style="margin: 12px;text-align: center;font-size: 23px;font-weight: 600;line-height: 45px;color: #4a4a4a;">Maximise Your Account</p>
+													<p style="margin: 0;">Our aim is to help you get the maximum results from your account. This section highlights how leads can be achieved. This month we are looking at special offers.</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+				
+              				<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+                				<tr>
+                  					<td class="inner-td" style="padding: 10px;font-size: 16px;line-height: 20px;text-align: justify;">
+                    					<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;">
+                      						<tr>
+                        						<td style="padding: 0;">
+													<p class="h3" style="margin:10px 0; font-weight:600;">Top Tips For Your Account</p>
+													<p class="h3" style="margin: 10px 0;font-size: 18px;color: #231F20;font-weight: 500;">Special Offers Page</p>
+													<p style="margin: 0;">The special offers section is one of the most popular pages in the leasing section.</p>
+                        						</td>
+											</tr>
+											<tr>
+                        						<td style="padding: 0;">
+                          							<img src="http://leasecarsdirect.co.uk/scripts/ajax/flyers/newsletter/accounts/special-offers.jpg" alt="special offers" style="border: 0; width: 100%;height: auto;">
+                        						</td>
+                     	 					</tr>
+											<tr>
+												<td style="padding: 0;">
+													<p style="margin: 0;">Keep an eye on our Special Offers pages to see if you can see a gap in the deals that are available, add these deals to stand out from the crowd.</p>
+													<br>
+													<p style="margin: 0;"><strong>How do you do this</strong></p>
+													<p sttyle="margin: 0;">Ask Michaela for mini sentence</p>
+												</td>
+											</tr>
+                    					</table>
+                  					</td>
+                				</tr>
+              				</table>
+				
+							<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+                				<tr>
+                  					<td class="inner-td" style="padding: 10px;font-size: 16px;line-height: 20px;text-align: justify;">
+                    					<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;">
+						 					<!--<tr>
+                        						<td style="padding: 0;">
+                          							<p class="h3" style="margin: 0;font-size: 18px;color: #231F20;font-weight: 500;">Deal Of The Week and Top 20</p>
+                        						</td>
+                      						</tr>-->
+                      						<tr>
+                        						<td style="padding: 0;">
+                          							<img src="http://leasecarsdirect.co.uk/scripts/ajax/flyers/newsletter/accounts/deal-of-the-week.jpg" alt="deal of the week" style="border: 0; width: 100%;height: auto;">
+                        						</td>
+                     		 				</tr>
+											<tr>
+												<td style="padding: 0;">
+													<p style="margin: 0;"><strong>Special offers section</strong></p>
+													<p style="margin: 0;">You can now add up to 20 deals into our special offers section. These deals will feature on our special offers pages and in our flyers which have a great response.</p>
+													<br>
+													<p style="margin: 0;"><strong>Deal of the week</strong></p>
+													<p style="margin: 0;">Simply go to the list deals section in your account and select the offers you want by clickng the star in the column named top</p>
+												</td>
+											</tr>
+                    					</table>
+                  					</td>
+                				</tr>
+              				</table>
+				
+							<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+                				<tr>
+                  					<td class="inner-td" style="padding: 10px;font-size: 16px;line-height: 20px;text-align: justify;">
+                    					<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;">
+					  						<tr>
+                        						<td style="padding: 0;">
+                          							<p class="h3" style="margin: 10px 0;font-size: 18px;color: #231F20;font-weight: 500;">Special Offers Filters</p>
+                        						</td>
+                      						</tr>
+						
+                      						<tr>
+                        						<td style="padding: 0;">
+                          							<img src="http://leasecarsdirect.co.uk/scripts/ajax/flyers/newsletter/accounts/filters.jpg" alt="special offers filters" style="border: 0; width: 100%;height: auto;">
+                        						</td>
+                      						</tr>
+						
+											<tr>
+												<td style="padding: 0;">
+													<p style="margin: 0;">As our special offers page now have filters try looking for those that aren't already advertised to maximise your results</p>
+												</td>
+											</tr>
+                    					</table>
+                  					</td>
+                				</tr>
+              				</table>
+				
+							<table width="100%" style="border-spacing: 0;font-family: sans-serif;color: #727f80;">
+                				<tr>
+                  					<td class="inner-td" style="padding: 10px;font-size: 16px;line-height: 20px;text-align: justify;">
+                    					<table class="content" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;padding-top: 20px;">
+						 					<tr>
+                        						<td style="padding: 0;">
+                         				 			<p class="h3" style="margin: 10px 0;font-size: 18px;color: #231F20;font-weight: 500;">Have You Actioned Your Account Review?</p>
+                        						</td>
+                      						</tr>
+						
+                      					<!--<tr>
+                        						<td style="padding: 0;">
+                         							<img src="http://leasecarsdirect.co.uk/scripts/ajax/flyers/newsletter/accounts/filters.jpg" alt="special offers filters" style="border: 0; width: 100%;height: auto;">
+                        						</td>
+                      						</tr>-->
+						
+											<tr>
+												<td style="padding: 0;">
+													<p style="margin: 0;">Every quarter we will provide you with a personalised review of your account and how to potentially maximise your results. These include a general overview of what you are currently advertising, what is the most popular deal on your account and on the site. We will also give you some tips and recommendations on how to get the maximum impact from your account.</p>
+												</td>
+											</tr>
+                    					</table>
+                  					</td>
+                				</tr>
+              				</table>
+            			</div><!-- close section -->
+          			</td>
+        		</tr>
+      		</table><!-- close main table -->
+
+      		<!-- START FOOTER -->
+            <div class="footer" style="width: 100%;max-width: 670px;margin: 0 auto;clear: both;text-align: center;">
+              	<table class="outer-table" border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0;font-family: sans-serif;color: #727f80;width: 100%;max-width: 670px;margin: 0 auto;background-color: #ffffff;">
+                	<tr>
+                  		<td class="content-block" style="padding: 0;padding-bottom: 16px;padding-top: 16px;background: #333;color: #999999;font-size: 12px;text-align: center;">
+                   		 	<h2 style="color:#fff;">For more information contact us</h2>
+                      		<p style="margin-bottom: 0;color: #fff;margin: 0;"><b>Call:</b> 0191 4912330</p>
+                      		<p style="color: #fff;margin: 0;"><b>Email:</b> enquiries@whatcar-leasing.co.uk</p>
+                       		<img src="https://www.leasecarsdirect.co.uk/scripts/ajax/flyers/non-territory/linkedin.png" alt="linkedin" width="131" style="border: 0;">
+					   		<p style="color: #fff;margin: 0;">unsubscribe</p>
+                  		</td>
+                	</tr>
+            	</table>
+			</div><!-- END FOOTER -->
+		</div><!-- close wrapper inner -->
+	</div><!-- close wrapper -->
+</body>
+</html>>>>>>
